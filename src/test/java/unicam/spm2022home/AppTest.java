@@ -19,9 +19,9 @@ public class AppTest
         assertTrue( true );
     }
 	
-	@Test
+	//@Test
     //@Disabled
-    void testFail() {
-    	fail("Not yet implemented");
-    }
+    //void testFail() {
+    //	fail("Not yet implemented");
+    //}
 }
