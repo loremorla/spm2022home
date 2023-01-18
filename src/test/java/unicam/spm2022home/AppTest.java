@@ -1,6 +1,7 @@
 package unicam.spm2022home;
 
 import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
 
 import org.junit.Test;
 
@@ -16,5 +17,11 @@ public class AppTest
     public void shouldAnswerWithTrue()
     {
         assertTrue( true );
+    }
+	
+	@Test
+    //@Disabled
+    void testFail() {
+    	fail("Not yet implemented");
     }
 }
